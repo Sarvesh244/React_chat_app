@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.message-thread {
+  
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 20px;
+  
+}
+
+.input-box input {
+  flex-grow: 1;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  border-width: 1px;
+  border-color: black;
+}
+
+.like-button {
+  border: none;
+  cursor: pointer;
+  width: 70px;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+}
+.lb{
+  height: 20px;
+  width: 20px;
+  margin-bottom: -5px;
+}
+.text{
+  width: 70vw;
+  padding: 20px;
+  height: 10px;
+  margin: 10px;
+  padding-bottom: -5px;
+  background-color: white;
+  color: black;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 0;
+}
+.sc{
+  display: flex;
+}
+.emoji-button{
+  margin-left: -50px;
+  border-width: 0;
+}
