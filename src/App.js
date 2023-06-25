@@ -77,7 +77,9 @@ const App = () => {
           <div key={message.id} className="message">
             <span className="username">{message.user}</span>
             <div className="sc">
+  <div className="tc">
               <span className="text">{message.text}</span>
+  </div>
 
               <button className="like-button" onClick={() => handleLike(message.id)}>
                 <img className="lb" alt="like" src="https://img.uxwing.com/wp-content/themes/uxwing/download/hand-gestures/like-button-icon.svg" />  ({message.likes})
